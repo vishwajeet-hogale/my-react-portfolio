@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
+import INFO from "../../data/user.js";
 
 const NavBar = (props) => {
 	const { active } = props;
@@ -56,6 +57,15 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/contact">Contact</Link>
+							</li>
+							<li
+								className={
+									active === "Resume"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<a href={INFO.socials.resume} target="__blank">Resume</a>
 							</li>
 						</ul>
 					</div>

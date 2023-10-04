@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "My Portfolio",
+		title: "Vishwajeet Hogale",
 		name: "Vishwajeet Hogale",
 		email: "vishwajeethogale307@gmail.com",
 		logo: "../logo.png",
@@ -13,6 +13,7 @@ const INFO = {
 		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+		resume:"https://www.linkedin.com/in/vishwajeet-hogale-72a565198/overlay/1635543109920/single-media-viewer/?profileId=ACoAAC5bR9IBqpN-EAgDIu6qkJTQxRdUcGLMnSo"
 	},
 
 	homepage: {
