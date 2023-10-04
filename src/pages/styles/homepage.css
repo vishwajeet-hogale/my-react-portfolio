@@ -7,9 +7,9 @@
 	padding-top: 130px;
 }
 
-.homepage-container {
-	padding-top: 25px;
-}
+/* .homepage-container {
+	padding-top: 10px; 
+} */
 
 .homepage-first-area {
 	display: flex;
@@ -25,8 +25,14 @@
 
 .homepage-title {
 	width: 85% !important;
-}
 
+}
+.homepage-title h1{
+	/* width: 85% !important; */
+	
+	
+	font-size: 80px;
+}
 .homepage-subtitle {
 	width: 85% !important;
 }
@@ -37,8 +43,8 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 400px;
+	height: 400px;
 }
 
 .homepage-image-wrapper {
@@ -99,6 +105,7 @@
 	}
 
 	.homepage-first-area-left-side {
+		/* margin-top: -150px; */
 		display: flex;
 		flex-direction: column; /* Changed: set direction to column */
 		align-items: flex-start;

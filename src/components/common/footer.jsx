@@ -28,9 +28,9 @@ const Footer = () => {
 				</div>
 
 				<div className="footer-credits">
-					<div className="footer-credits-text">
+					{/* <div className="footer-credits-text">
 						© 2023 Tharindu.dev. All Rights Reserved.
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</React.Fragment>

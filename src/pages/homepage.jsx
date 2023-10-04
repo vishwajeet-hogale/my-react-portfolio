@@ -8,6 +8,7 @@ import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -22,6 +23,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import img from "./mypic.jpg";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -67,11 +69,11 @@ const Homepage = () => {
 		borderRadius: stayLogo ? "50%" : "none",
 		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
 	};
-
+	console.log()
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{INFO.main.title}</title>
+				<title >{INFO.main.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -91,12 +93,14 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
+								
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									<h1 style={{color: "#8a45e4"}} >{INFO.main.name}</h1>
+									<h3 style={{marginTop: "-30px",fontSize:"40px"}}>{INFO.homepage.title}</h3>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									<h4 style={{marginTop: "-30px",fontSize:"20px"}}>{INFO.homepage.description}</h4>
 								</div>
 							</div>
 
@@ -104,7 +108,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src={img}
 											alt="about"
 											className="homepage-image"
 										/>
@@ -114,33 +118,36 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
+							{/* <a
 								href={INFO.socials.twitter}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
+									style={{width:40,height:40}}
 									icon={faTwitter}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
+									style={{width:40,height:40}}
 									icon={faGithub}
 									className="homepage-social-icon"
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									style={{width:40,height:40}}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -150,6 +157,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
+									style={{width:40,height:40}}
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
@@ -160,17 +168,18 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
+								 	style={{width:40,height:40}}
 									icon={faMailBulk}
 									className="homepage-social-icon"
 								/>
 							</a>
 						</div>
 
-						<div className="homepage-projects">
+						{/* <div className="homepage-projects">
 							<AllProjects />
-						</div>
+						</div> */}
 
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -190,12 +199,12 @@ const Homepage = () => {
 
 							<div className="homepage-works">
 								<Works />
-							</div>
-						</div>
+							</div> */}
+						{/* </div> */}
 
-						<div className="page-footer">
+						{/* <div className="page-footer">
 							<Footer />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

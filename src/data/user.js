@@ -1,24 +1,24 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "My Portfolio",
+		name: "Vishwajeet Hogale",
+		email: "vishwajeethogale307@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		github: "https://github.com/vishwajeet-hogale",
+		linkedin: "https://www.linkedin.com/in/vishwajeet-hogale-72a565198/",
+		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Big Data, Machine Learning, Artificial Intelligence, Web Development and App Development",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm a results-driven software engineer with a strong computer science foundation. I thrive on tackling challenges, consistently delivering impactful solutions. My passion for technology and commitment to excellence drive me to excel in projects, whether it's optimizing data pipelines, leveraging deep learning models, or creating user-friendly applications. My track record reflects my ability to enhance efficiency, reduce costs, and elevate user experiences. I approach each task with determination and a focus on achieving meaningful results. My proactive attitude, problem-solving skills, and dedication define my approach to computer science.",
 	},
 
 	about: {

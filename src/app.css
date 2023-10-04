@@ -28,9 +28,9 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
-	border: 1px solid #f4f4f5;
+	width: calc((100% - 1600px) / 2);
+	background-color: white;
+	/* border: 1px solid #f4f4f5; */
 }
 
 .page-content:before {
@@ -44,7 +44,7 @@
 }
 
 .content-wrapper {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
