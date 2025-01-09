@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Vishwajeet Hogale",
 		name: "Vishwajeet Hogale",
-		email: "vishwajeethogale307@gmail.com",
+		email: "hogale.v@northeastern.edu",
 		logo: "../logo.png",
 	},
 
@@ -13,13 +13,13 @@ const INFO = {
 		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
-		resume:"https://drive.google.com/file/d/16EsNuiqomyQ7IY3qeiiVH0IQPxIL7cDT/view?usp=sharing"
+		resume:"https://drive.google.com/file/d/1wvFhDzAWHp7I9KF_qnSEZQdtFxFYakJH/view?usp=sharing"
 	},
 
 	homepage: {
-		title: "Big Data, Machine Learning, Artificial Intelligence, Web Development and App Development",
+		title: "Data Science, Machine Learning and Artificial Intelligence",
 		description:
-			"I'm a results-driven software engineer with a strong computer science foundation. I thrive on tackling challenges, consistently delivering impactful solutions. My passion for technology and commitment to excellence drive me to excel in projects, whether it's optimizing data pipelines, leveraging deep learning models, or creating user-friendly applications. My track record reflects my ability to enhance efficiency, reduce costs, and elevate user experiences. I approach each task with determination and a focus on achieving meaningful results. My proactive attitude, problem-solving skills, and dedication define my approach to computer science.",
+			"Hi, I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, passionate about building a career in the dynamic fields of data science and machine learning. With experience developing AI-powered dashboards at Mercedes-Benz, creating end-to-end analytics platforms at Multilex, and building IPO tracking tools, I specialize in leveraging data to solve complex problems and drive impactful insights. Recognized as a Gold Star Performer, I have worked on cutting-edge technologies like LLMs, generative AI, and robotics, designing solutions that harness the power of data to optimize workflows, enable intelligent automation, and deliver measurable business value. I am deeply committed to using data science and machine learning to uncover patterns, predict outcomes, and engineer innovative, AI-driven solutions that shape the future of technology.",
 	},
 
 	about: {
@@ -36,50 +36,50 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Theia - An Image to Speech Application for the Blind",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Led a team to develop a mobile app for the visually impaired, leveraging a PyTorch CNN-LSTM model for image decoding and a Python Flask backend to convert images into detailed speech in real-time. Built a user-friendly Flutter-based mobile UI for real-time image capture and video streaming.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/vishwajeet-hogale/theia",
 		},
 
 		{
-			title: "Project 3",
+			title: "Music Reconstruction using Genetic Algorithm",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Implemented a genetic algorithm for music generation using MIDI file channels as genes, applying crossover and mutation to evolve compositions across multiple generations. Developed a fitness evaluation system to optimize musical coherence in the final outputs.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/vishwajeet-hogale/Music-Reconstruction",
 		},
 
 		{
-			title: "Project 4",
+			title: "Event Photo Manager with Face Recognition",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Created an event photo management system leveraging ResNet-152 and OpenCV for face recognition and extraction, enabling users to efficiently retrieve and download images featuring specific individuals from a large collection of event photos.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/vishwajeet-hogale/ImageRec",
 		},
 
 		{
-			title: "Project 5",
+			title: "Water Conservation App by Why Waste?",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Developed a mobile application for a water conservation initiative by UNICEF India, engaging over 200 schools across three states in India. Built a user-friendly mobile interface using Flutter for water conservation efforts.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/flutter/flutter.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/WhyWasteOrg/WWApp2",
 		},
-	],
+
+		{
+			title: "Image Generation using GANs",
+			description:
+				"Used a generator and discriminator model to recreate a dog image from a blank image. Implemented a GAN architecture to generate realistic images based on noise input.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/vishwajeet-hogale/Image-Generation",
+		}
+	]
 };
 
 export default INFO;
