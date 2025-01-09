@@ -2,15 +2,14 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "Oct 8, 2024",
+		title: "Delivery Route Optimization using Genetic Algorithms",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Explore how genetic algorithms can be used for optimizing delivery routes, inspired by a course on Foundations of Artificial Intelligence.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Delivery Route Optimization",
+			"Genetic Algorithms",
+			"Artificial Intelligence",
 		],
 		style: `
 				.article-content {
@@ -27,7 +26,7 @@ function article_1() {
 		body: (
 			<React.Fragment>
 				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
+					<div className="paragraph">Content of the article on Genetic Algorithms.</div>
 					<img
 						src="https://picsum.photos/200/300"
 						alt="random"
@@ -41,25 +40,118 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "Mar 2, 2024",
+		title: "What is RAG (Retrieval Augmented Generation)?",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
+			"Learn about Retrieval Augmented Generation (RAG) and its relationship with large language models.",
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Retrieval Augmented Generation",
+			"RAG",
+			"Large Language Models",
 		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
 		body: (
 			<React.Fragment>
-				<h1>Content of article 2</h1>
+				<div className="article-content">
+					<div className="paragraph">Content of the article on RAG.</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
 			</React.Fragment>
 		),
 	};
 }
 
-const myArticles = [article_1, article_2];
+function article_3() {
+	return {
+		date: "Feb 27, 2024",
+		title: "All you need to know about Spark Dataframe API",
+		description:
+			"An overview of the Apache Spark DataFrame API, its structure, and its programming interface for data processing.",
+		keywords: [
+			"Spark DataFrame API",
+			"Apache Spark",
+			"Data Processing",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">Content of the article on Spark DataFrame API.</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_4() {
+	return {
+		date: "Feb 20, 2024",
+		title: "Spark Adaptive Query Execution",
+		description:
+			"Understand the features of Spark Adaptive Query Execution that enable query optimization.",
+		keywords: [
+			"Spark Adaptive Query Execution",
+			"Query Optimization",
+			"Apache Spark",
+		],
+		style: `
+				.article-content {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				.randImage {
+					align-self: center;
+					outline: 2px solid red;
+				}
+				`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">Content of the article on Spark Adaptive Query Execution.</div>
+					<img
+						src="https://picsum.photos/200/300"
+						alt="random"
+						className="randImage"
+					/>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+const myArticles = [article_1, article_2, article_3, article_4];
 
 export default myArticles;
