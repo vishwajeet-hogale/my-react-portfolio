@@ -28,7 +28,7 @@ function article_1() {
 				<div className="article-content">
 					<div className="paragraph">Content of the article on Genetic Algorithms.</div>
 					<img
-						src="https://picsum.photos/200/300"
+						src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LTJZXYX5WJAc9lgr8TgdcA.jpeg"
 						alt="random"
 						className="randImage"
 					/>
