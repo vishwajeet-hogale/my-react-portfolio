@@ -66,7 +66,7 @@ const INFO = {
 			title: "Water Conservation App by Why Waste?",
 			description:
 				"Developed a mobile application for a water conservation initiative by UNICEF India, engaging over 200 schools across three states in India. Built a user-friendly mobile interface using Flutter for water conservation efforts.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/flutter/flutter.png",
+			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg",
 			linkText: "View Project",
 			link: "https://github.com/WhyWasteOrg/WWApp2",
 		},

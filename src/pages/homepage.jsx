@@ -24,6 +24,7 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 import img from "./mypic.jpg";
+// import Projects from "./projects";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -118,12 +119,14 @@ const Homepage = () => {
 						</div>
 
 						
-
+						
 						<div className="homepage-projects">
+							<h3 style={{fontSize:"40px", fontWeight:"600px"}}>Projects</h3>
 							<AllProjects />
 						</div>
-
+						<h3 style={{fontSize:"40px", fontWeight:"600px"}}>Articles & Work</h3>
 						<div className="homepage-after-title">
+							{/* <h3 style={{fontSize:"40px", fontWeight:"600px"}}>Articles</h3> */}
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
