@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function article_1() {
 	return {
@@ -11,6 +11,7 @@ function article_1() {
 			"Genetic Algorithms",
 			"Artificial Intelligence",
 		],
+		link : "https://medium.com/@vishwajeethogale307/delivery-route-optimization-using-genetic-algorithms-bb1bed3a49c6",
 		style: `
 				.article-content {
 					display: flex;
@@ -22,19 +23,7 @@ function article_1() {
 					align-self: center;
 					outline: 2px solid red;
 				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of the article on Genetic Algorithms.</div>
-					<img
-						src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*LTJZXYX5WJAc9lgr8TgdcA.jpeg"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+				`
 	};
 }
 
@@ -49,6 +38,7 @@ function article_2() {
 			"RAG",
 			"Large Language Models",
 		],
+		link : "https://medium.com/@vishwajeethogale307/what-is-rag-retrieval-augmented-generation-9c11632d3c5a",
 		style: `
 				.article-content {
 					display: flex;
@@ -60,19 +50,7 @@ function article_2() {
 					align-self: center;
 					outline: 2px solid red;
 				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of the article on RAG.</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+				`
 	};
 }
 
@@ -87,6 +65,7 @@ function article_3() {
 			"Apache Spark",
 			"Data Processing",
 		],
+		link : "https://medium.com/@vishwajeethogale307/all-you-need-to-know-about-spark-dataframe-api-ee01ee173f11",
 		style: `
 				.article-content {
 					display: flex;
@@ -98,19 +77,7 @@ function article_3() {
 					align-self: center;
 					outline: 2px solid red;
 				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of the article on Spark DataFrame API.</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+		 		`
 	};
 }
 
@@ -125,6 +92,7 @@ function article_4() {
 			"Query Optimization",
 			"Apache Spark",
 		],
+		link : "https://medium.com/@vishwajeethogale307/spark-adaptive-query-execution-2f6193902a47",
 		style: `
 				.article-content {
 					display: flex;
@@ -136,19 +104,8 @@ function article_4() {
 					align-self: center;
 					outline: 2px solid red;
 				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of the article on Spark Adaptive Query Execution.</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
+				`
+		
 	};
 }
 

@@ -9,26 +9,27 @@ const Works = () => {
 	return (
 		<div className="works">
 			<Card
+				style = {{marginBottom: '20px'}}
 				icon={faBriefcase}
 				title="Work"
 				body={
-					<div className="works-body">
+					<div className="works-body" >
 						<div className="work">
 							<img
-								src="./yoja-ai.png"
-								alt="yoja-ai"
+								src="./Khoury.png"
+								alt="Khoury"
 								className="work-image"
 							/>
 							<div className="work-title">Khoury College of Computer Sciences</div>
 							<div className="work-subtitle">
-								Teaching Assistant
+								Graduate Teaching Assistant
 							</div>
 							<div className="work-duration">Jan 2024 – Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./mercedes-benz.png"
+								src="./mercedes-benz.jpeg"
 								alt="mercedes-benz"
 								className="work-image"
 							/>
@@ -41,7 +42,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./multilex.png"
+								src="./multilex.jpeg"
 								alt="multilex"
 								className="work-image"
 							/>
@@ -55,49 +56,40 @@ const Works = () => {
 					</div>
 				}
 			/>
+
 			<Card
+
 				icon={faBriefcase}
-				title="Work"
+				title="Open Source Work"
 				body={
 					<div className="works-body">
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src="./yoja-ai.png"
 								alt="yoja-ai"
 								className="work-image"
 							/>
-							<div className="work-title">Khoury College of Computer Sciences</div>
+							<div className="work-title">Yoja AI</div>
 							<div className="work-subtitle">
-								Teaching Assistant
+								Open Source LLM Developer
 							</div>
-							<div className="work-duration">Jan 2024 – Present</div>
-						</div>
+							<div className="work-duration">Nov 2024 – Dec 2024</div>
+						</div> */}
 
 						<div className="work">
 							<img
-								src="./mercedes-benz.png"
+								src="./whywaste.png"
 								alt="mercedes-benz"
 								className="work-image"
 							/>
-							<div className="work-title">Mercedes-Benz Research and Development India</div>
+							<div className="work-title">Why Waste?</div>
 							<div className="work-subtitle">
-								Data Analyst
+								Frontend Engineer
 							</div>
-							<div className="work-duration">Aug 2022 – Jul 2024</div>
+							<div className="work-duration">May 2024 – Jul 2024</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./multilex.png"
-								alt="multilex"
-								className="work-image"
-							/>
-							<div className="work-title">Multilex Technology</div>
-							<div className="work-subtitle">
-								Software Engineering Intern
-							</div>
-							<div className="work-duration">Oct 2020 – Jul 2022</div>
-						</div>
+						
 
 					</div>
 				}

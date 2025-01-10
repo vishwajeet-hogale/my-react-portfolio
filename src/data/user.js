@@ -17,7 +17,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Data Science, Machine Learning and Artificial Intelligence",
+		title: "Data Science and Machine Learning",
 		description:
 			"Hi, I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, passionate about building a career in the dynamic fields of data science and machine learning. With experience developing AI-powered dashboards at Mercedes-Benz, creating end-to-end analytics platforms at Multilex, and building IPO tracking tools, I specialize in leveraging data to solve complex problems and drive impactful insights. Recognized as a Gold Star Performer, I have worked on cutting-edge technologies like LLMs, generative AI, and robotics, designing solutions that harness the power of data to optimize workflows, enable intelligent automation, and deliver measurable business value. I am deeply committed to using data science and machine learning to uncover patterns, predict outcomes, and engineer innovative, AI-driven solutions that shape the future of technology.",
 	},
