@@ -1,44 +1,82 @@
 @import "../../../data/styles.css";
 
 .works-body {
-	margin-bottom: 10px;
+	margin-bottom: 20px; /* Increased space between work items */
 }
 
 .work {
 	display: flex;
-	padding-bottom: 40px;
-	width: 400px;
+	flex-direction: column; /* Stacks title, subtitle, duration, and details vertically */
+	padding-bottom: 30px; /* Reduced bottom padding */
+	width: 100%; /* Allow flexibility for responsiveness */
+	max-width: 400px; /* Ensure consistent layout on large screens */
 }
 
 .work-image {
-	height: 30px;
-	width: 30px;
-	border-radius: 50%;
-	outline: 6px solid white;
-	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+	height: 40px; /* Slightly larger for better visibility */
+	width: 40px;
+	border-radius: 50%; /* Circular image */
+	outline: 3px solid var(--primary-color); /* Reduced outline thickness */
+	/* box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25); Subtle shadow */
+	margin-bottom: 10px; /* Space below the image */
 }
 
 .work-title {
-	font-size: 15px;
-	font-weight: 700;
-	padding-left: 20px;
-	margin-top: -3px;
+	font-size: 16px; /* Slightly larger for better emphasis */
+	font-weight: bold; /* Clearer emphasis */
 	color: var(--secondary-color);
+	margin-bottom: 5px; /* Space below the title */
 }
 
 .work-subtitle {
-	position: absolute;
-	font-size: 12px;
-	color: var(--secondary-color);
-	padding-top: 22px;
-	padding-left: 50px;
+	font-size: 13px; /* Adjusted for readability */
+	color: var(--tertiary-color); /* Subtle color for distinction */
+	margin-bottom: 5px; /* Space below subtitle */
 }
 
 .work-duration {
-	position: absolute;
-	width: 350px;
-	font-size: 12px;
-	padding-top: 20px;
-	text-align: right;
-	color: var(--tertiary-color);
+	font-size: 13px;
+	color: var(--tertiary-color); /* Consistent with subtitle */
+	margin-bottom: 10px; /* Space above details */
+	text-align: left; /* Align with the rest of the content */
+}
+
+.work-details {
+	font-size: 13px; /* Uniform font size */
+	color: var(--primary-color); /* Match color scheme */
+	line-height: 1.6; /* Better readability for paragraphs */
+}
+
+.work-details ul {
+	padding-left: 20px; /* Ensure consistent indentation */
+	margin: 0; /* Remove default margins */
+}
+
+.work-details li {
+	margin-bottom: 8px; /* Space between list items */
+	color: var(--secondary-color); /* Match the color of text */
+}
+
+@media screen and (max-width: 768px) {
+	/* Responsive styles for smaller screens */
+	.work {
+		width: 100%; /* Full width on smaller screens */
+		padding-bottom: 20px; /* Adjust padding */
+	}
+
+	.work-image {
+		height: 30px;
+		width: 30px;
+		margin-bottom: 5px;
+	}
+
+	.work-title {
+		font-size: 14px;
+	}
+
+	.work-subtitle,
+	.work-duration,
+	.work-details {
+		font-size: 12px;
+	}
 }

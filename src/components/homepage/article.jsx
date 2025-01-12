@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Card from "../common/card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles/article.css";
 
 const Article = (props) => {
 	const { title, description, date, link } = props;
-
 	return (
 		<React.Fragment>
 			<div className="homepage-article">

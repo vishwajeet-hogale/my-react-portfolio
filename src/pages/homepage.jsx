@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import Card from "../components/common/card";
+import { faMailBulk, faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 
@@ -94,14 +94,14 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								
+
 								<div className="title homepage-title">
-									<h1 style={{color: "#8a45e4"}} >{INFO.main.name}</h1>
-									<h3 style={{marginTop: "-30px",fontSize:"40px"}}>{INFO.homepage.title}</h3>
+									<h1 style={{ color: "#8a45e4" }} >{INFO.main.name}</h1>
+									<h3 style={{ marginTop: "-30px", fontSize: "40px" }}>{INFO.homepage.title}</h3>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									<h4 style={{marginTop: "-30px",fontSize:"20px"}}>{INFO.homepage.description}</h4>
+									<h4 style={{ marginTop: "-30px", fontSize: "20px" }}>{INFO.homepage.description}</h4>
 								</div>
 							</div>
 
@@ -118,13 +118,13 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						
-						
+
+
 						<div className="homepage-projects">
-							<h3 style={{fontSize:"40px", fontWeight:"600px"}}>Projects</h3>
+							<h3 style={{ fontSize: "40px", fontWeight: "600px" }}>Projects</h3>
 							<AllProjects />
 						</div>
-						<h3 style={{fontSize:"40px", fontWeight:"600px"}}>Articles & Work</h3>
+						<h3 style={{ fontSize: "40px", fontWeight: "600px" }}>Articles & Work</h3>
 						<div className="homepage-after-title">
 							{/* <h3 style={{fontSize:"40px", fontWeight:"600px"}}>Articles</h3> */}
 							<div className="homepage-articles">
@@ -146,8 +146,10 @@ const Homepage = () => {
 
 							<div className="homepage-works">
 								<Works />
+
 							</div>
 						</div>
+
 						<div className="homepage-socials">
 							{/* <a
 								href={INFO.socials.twitter}
@@ -166,7 +168,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									style={{width:40,height:40}}
+									style={{ width: 40, height: 40 }}
 									icon={faGithub}
 									className="homepage-social-icon"
 								/>
@@ -177,7 +179,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									style={{width:40,height:40}}
+									style={{ width: 40, height: 40 }}
 									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
@@ -188,7 +190,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									style={{width:40,height:40}}
+									style={{ width: 40, height: 40 }}
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
@@ -199,7 +201,7 @@ const Homepage = () => {
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-								 	style={{width:40,height:40}}
+									style={{ width: 40, height: 40 }}
 									icon={faMailBulk}
 									className="homepage-social-icon"
 								/>
