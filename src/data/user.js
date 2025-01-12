@@ -13,7 +13,7 @@ const INFO = {
 		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
-		resume:"https://drive.google.com/file/d/1wvFhDzAWHp7I9KF_qnSEZQdtFxFYakJH/view?usp=sharing"
+		resume:"https://drive.google.com/file/d/1Lm407qvFRm-lssI05aRhmm9Hby42EaPQ/view?usp=sharing"
 	},
 
 	homepage: {
