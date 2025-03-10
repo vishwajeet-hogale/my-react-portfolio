@@ -82,7 +82,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Multilex Technology</div>
 							<div className="work-subtitle">
-								Software Engineering Intern
+								Machine Learning Engineer Intern
 							</div>
 							<div className="work-duration">Oct 2020 – Jul 2022</div>
 							<div className="work-details">
