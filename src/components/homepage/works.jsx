@@ -16,6 +16,25 @@ const Works = () => {
 					<div className="works-body" >
 						<div className="work">
 							<img
+								src="./bosch.jpeg"
+								alt="bosch"
+								className="work-image"
+							/>
+							<div className="work-title">Bosch R&D SYV</div>
+							<div className="work-subtitle">
+								Incoming Autonomous Driving ML Intern
+							</div>
+							<div className="work-duration">May 27, 2025 – August 29, 2025</div>
+							<div className="work-details">
+								<ul>
+									<li><strong>Incoming Machine Learning Intern</strong> in the Autonomous Driving division at Bosch R&D, Sunnyvale, CA.</li>
+									<li>Will work on perception models and multimodal sensor fusion for real-time driving scenarios using state-of-the-art deep learning frameworks.</li>
+									<li>Contributing to research and deployment of safety-critical ML systems for next-generation autonomous vehicles.</li>
+								</ul>
+							</div>
+						</div>
+						<div className="work">
+							<img
 								src="./Khoury.png"
 								alt="Khoury"
 								className="work-image"

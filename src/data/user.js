@@ -17,9 +17,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Data Science and Machine Learning",
-		description:
-			"Hi, I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, passionate about building a career in the dynamic fields of data science and machine learning. With experience developing AI-powered dashboards at Mercedes-Benz, creating end-to-end analytics platforms at Multilex, and building IPO tracking tools, I specialize in leveraging data to solve complex problems and drive impactful insights. Recognized as a Gold Star Performer, I have worked on cutting-edge technologies like LLMs, generative AI, and robotics, designing solutions that harness the power of data to optimize workflows, enable intelligent automation, and deliver measurable business value. I am deeply committed to using data science and machine learning to uncover patterns, predict outcomes, and engineer innovative, AI-driven solutions that shape the future of technology.",
+	title: "AI Researcher | Vision-Language Models | Medical & Scientific AI | Autonomous Driving",
+	description:
+		"I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, driven by a passion for building intelligent systems at the intersection of computer vision, natural language processing, and healthcare. I specialize in developing multimodal AI models — from medical image captioning using DeiT + BERT + LSTM, to lab procedure video captioning with CLIP-GPT2 and CLIP-T5. My experience spans across AI-powered search engines, generative modeling, robotics, and real-time assistive technologies. I’ve worked on production-grade applications with Mercedes-Benz and impactful public-sector tools in collaboration with UNICEF India. I’m committed to pushing the boundaries of machine learning and creating solutions that are not only innovative but also socially meaningful.",
 	},
 
 	about: {
@@ -35,51 +35,70 @@ const INFO = {
 	},
 
 	projects: [
-		{
-			title: "Theia - An Image to Speech Application for the Blind",
-			description:
-				"Led a team to develop a mobile app for the visually impaired, leveraging a PyTorch CNN-LSTM model for image decoding and a Python Flask backend to convert images into detailed speech in real-time. Built a user-friendly Flutter-based mobile UI for real-time image capture and video streaming.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/vishwajeet-hogale/theia",
-		},
+	{
+		title: "MedCaption: Automated Medical Image Captioning",
+		description:
+			"Built a medical image captioning model using DeiT + BERT + LSTM after experimenting with CLIP, ResNet + LSTM, ResNet + LLaMA, and DeIT + LLaMA, improving caption quality and medical relevance. Developed a custom data preprocessing pipeline leveraging transformer-based embeddings, leading to a 15% increase in BLEU score for image caption relevance.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/MedCaptions",
+	},
 
-		{
-			title: "Music Reconstruction using Genetic Algorithm",
-			description:
-				"Implemented a genetic algorithm for music generation using MIDI file channels as genes, applying crossover and mutation to evolve compositions across multiple generations. Developed a fitness evaluation system to optimize musical coherence in the final outputs.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/vishwajeet-hogale/Music-Reconstruction",
-		},
+	{
+		title: "Conversational Search for University Research Retrieval",
+		description:
+			"Developed a query expansion system for a chatbot to retrieve ranked research information from the university website, improving research discovery. Implemented a Contextual Concept Expansion - Hybrid Approach using scraped data and transformer models (BERT, RoBERTa) to enhance query understanding, increasing retrieval relevance by 20% NDCG Score.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/RAG-based-Search-Engine",
+	},
 
-		{
-			title: "Event Photo Manager with Face Recognition",
-			description:
-				"Created an event photo management system leveraging ResNet-152 and OpenCV for face recognition and extraction, enabling users to efficiently retrieve and download images featuring specific individuals from a large collection of event photos.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/vishwajeet-hogale/ImageRec",
-		},
+	{
+		title: "Video Captioning for Lab Procedures using CLIP-GPT2 and CLIP-T5",
+		description:
+			"Designed and trained a dual-model architecture leveraging CLIP visual features and transformer-based language models (GPT2 and T5) to generate accurate video captions for medical and laboratory procedures. Compared training and inference performance, visualized frame embeddings, and evaluated results using BLEU, ROUGE, and METEOR metrics.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/video-commentary-ai",
+	},
 
-		{
-			title: "Water Conservation App by Why Waste?",
-			description:
-				"Developed a mobile application for a water conservation initiative by UNICEF India, engaging over 200 schools across three states in India. Built a user-friendly mobile interface using Flutter for water conservation efforts.",
-			logo: "https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg",
-			linkText: "View Project",
-			link: "https://github.com/WhyWasteOrg/WWApp2",
-		},
+	{
+		title: "Theia - An Image to Speech Application for the Blind",
+		description:
+			"Led a team to develop a mobile app for the visually impaired, leveraging a PyTorch CNN-LSTM model for image decoding and a Python Flask backend to convert images into detailed speech in real-time. Built a user-friendly Flutter-based mobile UI for real-time image capture and video streaming.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/theia",
+	},
 
-		{
-			title: "Image Generation using GANs",
-			description:
-				"Used a generator and discriminator model to recreate a dog image from a blank image. Implemented a GAN architecture to generate realistic images based on noise input.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/vishwajeet-hogale/Image-Generation",
-		}
-	]
+	{
+		title: "Music Reconstruction using Genetic Algorithm",
+		description:
+			"Implemented a genetic algorithm for music generation using MIDI file channels as genes, applying crossover and mutation to evolve compositions across multiple generations. Developed a fitness evaluation system to optimize musical coherence in the final outputs.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/Music-Reconstruction",
+	},
+
+	{
+		title: "Event Photo Manager with Face Recognition",
+		description:
+			"Created an event photo management system leveraging ResNet-152 and OpenCV for face recognition and extraction, enabling users to efficiently retrieve and download images featuring specific individuals from a large collection of event photos.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/ImageRec",
+	},
+
+	{
+		title: "Image Generation using GANs",
+		description:
+			"Used a generator and discriminator model to recreate a dog image from a blank image. Implemented a GAN architecture to generate realistic images based on noise input.",
+		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		linkText: "View Project",
+		link: "https://github.com/vishwajeet-hogale/Image-Generation",
+	}
+]
+
 };
 
 export default INFO;
