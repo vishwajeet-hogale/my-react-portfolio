@@ -13,13 +13,13 @@ const INFO = {
 		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
-		resume:"https://drive.google.com/file/d/1Y3C1KyqnWG-Bz-dVALYZ8RTWhTEfHBkx/view?usp=sharing"
+		resume:"https://drive.google.com/file/d/19l6NK1007_pLIrK_9Tz_0yvX4Pqeh27W/view?usp=sharing"
 	},
 
 	homepage: {
 	title: "AI Researcher | Vision-Language Models | Medical & Scientific AI | Autonomous Driving",
 	description:
-		"I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, driven by a passion for building intelligent systems at the intersection of computer vision, natural language processing, and healthcare. I specialize in developing multimodal AI models — from medical image captioning using DeiT + BERT + LSTM, to lab procedure video captioning with CLIP-GPT2 and CLIP-T5. My experience spans across AI-powered search engines, generative modeling, robotics, and real-time assistive technologies. I’ve worked on production-grade applications with Mercedes-Benz and impactful public-sector tools in collaboration with UNICEF India. I’m committed to pushing the boundaries of machine learning and creating solutions that are not only innovative but also socially meaningful.",
+		`I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, driven by a passion for building intelligent systems at the intersection of computer vision, natural language processing, and healthcare. I specialize in developing multimodal AI models — from medical image captioning using DeiT + BERT + LSTM, to lab procedure video captioning with CLIP-GPT2 and CLIP-T5. My experience spans across AI-powered search engines, generative modeling, robotics, and real-time assistive technologies. I’ve worked on production-grade applications with Mercedes-Benz and impactful public-sector tools in collaboration with UNICEF India. I’m committed to pushing the boundaries of machine learning and creating solutions that are not only innovative but also socially meaningful.`,
 	},
 
 	about: {

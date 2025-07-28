@@ -22,14 +22,15 @@ const Works = () => {
 							/>
 							<div className="work-title">Bosch R&D SYV</div>
 							<div className="work-subtitle">
-								Incoming Autonomous Driving ML Intern
+								Autonomous Driving ML Intern
 							</div>
-							<div className="work-duration">May 27, 2025 – August 29, 2025</div>
+							<div className="work-duration">May 26, 2025 – Present</div>
 							<div className="work-details">
 								<ul>
-									<li><strong>Incoming Machine Learning Intern</strong> in the Autonomous Driving division at Bosch R&D, Sunnyvale, CA.</li>
-									<li>Will work on perception models and multimodal sensor fusion for real-time driving scenarios using state-of-the-art deep learning frameworks.</li>
-									<li>Contributing to research and deployment of safety-critical ML systems for next-generation autonomous vehicles.</li>
+									<li><strong>Machine Learning Intern</strong> in the Autonomous Driving division at Bosch R&D, Sunnyvale, CA.</li>
+									<li>Designed a multimodal model that fuses time series (Chronos-Bolt), images (ViT), text (GPT-3), and graph data for bug triaging and forensics in autonomous driving.</li>
+									<li>Built a fusion module with multi-head and cross-attention to enhance time series embeddings, improving classification accuracy by 10%.</li>
+									<li>Integrated denoising autoencoders for real-time scene understanding and deployed the inference pipeline to support diagnostics across 100+ test drives in Germany.</li>
 								</ul>
 							</div>
 						</div>

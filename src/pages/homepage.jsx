@@ -80,6 +80,63 @@ const Homepage = () => {
 					name="keywords"
 					content={currentSEO.keywords.join(", ")}
 				/>
+				<div className="homepage-socials">
+					{/* <a
+								href={INFO.socials.twitter}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									style={{width:40,height:40}}
+									icon={faTwitter}
+									className="homepage-social-icon"
+								/>
+							</a> */}
+					<a
+						href={INFO.socials.github}
+						target="_blank"
+						rel="noreferrer"
+					>
+						<FontAwesomeIcon
+							style={{ width: 40, height: 40 }}
+							icon={faGithub}
+							className="homepage-social-icon"
+						/>
+					</a>
+					<a
+						href={INFO.socials.linkedin}
+						target="_blank"
+						rel="noreferrer"
+					>
+						<FontAwesomeIcon
+							style={{ width: 40, height: 40 }}
+							icon={faLinkedin}
+							className="homepage-social-icon"
+						/>
+					</a>
+					<a
+						href={INFO.socials.instagram}
+						target="_blank"
+						rel="noreferrer"
+					>
+						<FontAwesomeIcon
+							style={{ width: 40, height: 40 }}
+							icon={faInstagram}
+							className="homepage-social-icon"
+						/>
+					</a>
+					<a
+						href={`mailto:${INFO.main.email}`}
+						target="_blank"
+						rel="noreferrer"
+					>
+						<FontAwesomeIcon
+							style={{ width: 40, height: 40 }}
+							icon={faMailBulk}
+							className="homepage-social-icon"
+						/>
+					</a>
+				</div>
 			</Helmet>
 
 			<div className="page-content">
@@ -120,10 +177,7 @@ const Homepage = () => {
 
 
 
-						<div className="homepage-projects">
-							<h3 style={{ fontSize: "40px", fontWeight: "600px" }}>Projects</h3>
-							<AllProjects />
-						</div>
+
 						<h3 style={{ fontSize: "40px", fontWeight: "600px" }}>Articles & Work</h3>
 						<div className="homepage-after-title">
 							{/* <h3 style={{fontSize:"40px", fontWeight:"600px"}}>Articles</h3> */}
@@ -142,71 +196,22 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
+								<div className="homepage-projects">
+									<h3 style={{ fontSize: "40px", fontWeight: "600px" }}>Projects</h3>
+									<AllProjects />
+								</div>
 							</div>
+
 
 							<div className="homepage-works">
 								<Works />
 
 							</div>
+
 						</div>
 
-						<div className="homepage-socials">
-							{/* <a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									style={{width:40,height:40}}
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a> */}
-							<a
-								href={INFO.socials.github}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									style={{ width: 40, height: 40 }}
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									style={{ width: 40, height: 40 }}
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									style={{ width: 40, height: 40 }}
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={`mailto:${INFO.main.email}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									style={{ width: 40, height: 40 }}
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
+
+
 						<div className="page-footer">
 							<Footer />
 						</div>
