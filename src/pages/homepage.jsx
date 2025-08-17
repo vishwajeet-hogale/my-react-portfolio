@@ -102,7 +102,18 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									<h4 style={{ marginTop: "-30px", fontSize: "20px" }}>{INFO.homepage.description}</h4>
+									{INFO.homepage.description && (
+										<h4 style={{ fontSize: "20px" }}>{INFO.homepage.description}</h4>
+									)}
+									{INFO.homepage.description2 && (
+										<h4 style={{ fontSize: "20px" }}>{INFO.homepage.description2}</h4>
+									)}
+									{INFO.homepage.description3 && (
+										<h4 style={{ fontSize: "20px" }}>{INFO.homepage.description3}</h4>
+									)}
+									{INFO.homepage.description4 && (
+										<h4 style={{ fontSize: "20px" }}>{INFO.homepage.description4}</h4>
+									)}
 								</div>
 							</div>
 

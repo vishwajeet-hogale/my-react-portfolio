@@ -13,13 +13,12 @@ const INFO = {
 		instagram: "https://www.instagram.com/vishwajeet.hogale/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
-		resume:"https://drive.google.com/file/d/19l6NK1007_pLIrK_9Tz_0yvX4Pqeh27W/view?usp=sharing"
+		resume:"https://drive.google.com/file/d/1GV7gxPdMFTC82-DubnazRXUnQScWMbQZ/view?usp=sharing"
 	},
 
 	homepage: {
 	title: "AI Researcher | Vision-Language Models | Medical & Scientific AI | Autonomous Driving",
-	description:
-		`I’m Vishwajeet Shivaji Hogale, a Master’s student in Artificial Intelligence at Northeastern University, driven by a passion for building intelligent systems at the intersection of computer vision, natural language processing, and healthcare. I specialize in developing multimodal AI models — from medical image captioning using DeiT + BERT + LSTM, to lab procedure video captioning with CLIP-GPT2 and CLIP-T5. My experience spans across AI-powered search engines, generative modeling, robotics, and real-time assistive technologies. I’ve worked on production-grade applications with Mercedes-Benz and impactful public-sector tools in collaboration with UNICEF India. I’m committed to pushing the boundaries of machine learning and creating solutions that are not only innovative but also socially meaningful.`,
+	description: `I’m Vishwajeet Hogale, pursuing my Master’s in Artificial Intelligence at Northeastern University with a focus on Computer Vision. My strong skillsets lie in multimodal deep learning, natural language processing, and machine learning systems engineering. I’ve applied these to domains like autonomous driving, enterprise automation, and financial intelligence—building models that fuse vision, text, time-series, and graph data for real-world impact. I’m deeply interested in advancing AI to make technology more reliable, accessible, and impactful across fields such as autonomous systems, healthcare, and beyond.`,
 	},
 
 	about: {
@@ -36,7 +35,7 @@ const INFO = {
 
 	projects: [
 	{
-		title: "MedCaption: Automated Medical Image Captioning",
+		title: "MedCaption: Deep Learning Framework for Automated Medical Image Captioning",
 		description:
 			"Built a medical image captioning model using DeiT + BERT + LSTM after experimenting with CLIP, ResNet + LSTM, ResNet + LLaMA, and DeIT + LLaMA, improving caption quality and medical relevance. Developed a custom data preprocessing pipeline leveraging transformer-based embeddings, leading to a 15% increase in BLEU score for image caption relevance.",
 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -45,7 +44,7 @@ const INFO = {
 	},
 
 	{
-		title: "Conversational Search for University Research Retrieval",
+		title: "Beyond RAG: Contextual Concept Expansion for Smarter Chatbot Search",
 		description:
 			"Developed a query expansion system for a chatbot to retrieve ranked research information from the university website, improving research discovery. Implemented a Contextual Concept Expansion - Hybrid Approach using scraped data and transformer models (BERT, RoBERTa) to enhance query understanding, increasing retrieval relevance by 20% NDCG Score.",
 		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -88,15 +87,6 @@ const INFO = {
 		linkText: "View Project",
 		link: "https://github.com/vishwajeet-hogale/ImageRec",
 	},
-
-	{
-		title: "Image Generation using GANs",
-		description:
-			"Used a generator and discriminator model to recreate a dog image from a blank image. Implemented a GAN architecture to generate realistic images based on noise input.",
-		logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-		linkText: "View Project",
-		link: "https://github.com/vishwajeet-hogale/Image-Generation",
-	}
 ]
 
 };
